@@ -52,20 +52,18 @@ const questions = [{
     message: 'If you have any questions about the project, open an issue or please contact at: ',
   }];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
+  fs.writeFile(fileName, data, (err) =>
+  err ? console.log(err) : console.log('Successfully created .md file!')
+  );
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer
       .prompt(questions)
       .then((data) => {
-        const readmeContent = generateMarkdown(data);
-        fs.writeFile('README.md', readmeContent, (err) =>
-          err ? console.log(err) : console.log('Successfully created README.md!')
-        );
+        readmeContent = generateMarkdown(data);
+        writeToFile('README.md', readmeContent);
   });
 }
 
