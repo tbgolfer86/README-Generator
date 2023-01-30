@@ -5,27 +5,27 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [{
     type: 'input',
     name: 'Title',
-    message: 'What is the title of your project?',
+    message: 'Enter the title of your project:',
   },
   {
     type: 'input',
     name: 'Description',
-    message: 'Provide a short description explaining the what, why, and how of your project.',
+    message: 'Provide a short description explaining the what, why, and how of your project:',
   },
   {
     type: 'input',
     name: 'Installation',
-    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+    message: 'What are the steps required to install your project?',
   },
   {
     type: 'input',
     name: 'Usage',
-    message: 'Provide instructions and examples for use. Include screenshots as needed.',
+    message: 'Provide instructions on how to use your application:',
   },
   {
     type: 'list',
     name: 'License',
-    message: 'Enter the license used for your project.',
+    message: 'Select the license used for your project:',
     choices: [
         "GNU AGPLv3",
         "GNU GPLv3",
@@ -39,22 +39,28 @@ const questions = [{
   {
     type: 'input',
     name: 'Contributing',
-    message: 'Explain how to contribute to your project.',
+    message: 'Explain how to contribute to your project:',
   },
   {
     type: 'input',
     name: 'Tests',
-    message: 'Enter any tests.',
+    message: 'Enter any test instructions:',
   },
   {
     type: 'input',
-    name: 'Questions',
-    message: 'If you have any questions about the project, open an issue or please contact at: ',
-  }];
+    name: 'Github',
+    message: 'Enter your GitHub username:',
+  },
+  {
+    type: 'input',
+    name: 'Email',
+    message: 'Enter the best Email address for users to contact you about the project:',
+  }
+];
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-  err ? console.log(err) : console.log('Successfully created .md file!')
+  err ? console.log(err) : console.log('Successfully created your .md file!')
   );
 }
 
