@@ -19,7 +19,8 @@ function renderLicenseBadge(License) {
   } 
   if (License == 'Boost') {
     return `![Boost license](https://img.shields.io/badge/license-Boost-blue.svg)`;
-  } else {
+  }
+  if (License == 'None') {
     return '';
   }
 }
@@ -45,9 +46,10 @@ function renderLicenseLink(License) {
   } 
   if (License == 'Boost') {
     return `[Boost license](https://opensource.org/licenses/BSL-1.0)`;
-  } else {
-    return '';
   }
+  if (License == 'None') {
+    return '';
+  } 
 }
 
 function renderLicenseSection(License) {
@@ -71,7 +73,8 @@ function renderLicenseSection(License) {
   } 
   if (License == 'Boost') {
     return 'This application is licensed under the ' + renderLicenseLink(License);
-  } else {
+  } 
+  if (License == 'None') {
     return '';
   }
 }
