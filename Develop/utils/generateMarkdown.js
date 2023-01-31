@@ -52,25 +52,25 @@ function renderLicenseLink(License) {
 
 function renderLicenseSection(License) {
   if (License == 'GNU AGPLv3') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the GNU AGPLv3 license.';
   }
   if (License == 'GNU GPLv3') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the GNU GPLv3 license.';
   }
   if (License == 'GNU LGPLv3') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the GNU LGPLv3 license.';
   }
   if (License == 'Mozilla') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the Mozilla license.';
   }
   if (License == 'MIT') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the MIT license.';
   }
   if (License == 'Apache') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the Apache license.';
   } 
   if (License == 'Boost') {
-    return 'This application is licensed under the ' + renderLicenseLink(License);
+    return 'This application is licensed under the Boost license.';
   } else {
     return '';
   }
@@ -107,7 +107,7 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseSection(data.License)}
-
+  ${renderLicenseLink(data.License)}
 ---
 
   ## How to Contribute
