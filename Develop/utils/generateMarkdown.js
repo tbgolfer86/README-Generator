@@ -113,7 +113,7 @@ function generateMarkdown(data) {
   
 ---
 
-  ## How to Contribute
+  ## Contributing
   ${data.Contributing}
 
 ---
