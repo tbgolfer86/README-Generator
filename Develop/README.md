@@ -1,7 +1,7 @@
-# README Generator
-  ![Apache license](https://img.shields.io/badge/license-Apache-blue.svg)
+# 
+  ![Boost license](https://img.shields.io/badge/license-Boost-blue.svg)
   ## Description
-  creates a quality readme file
+  
 
 ---
 
@@ -17,30 +17,30 @@
 ---
 
   ## Installation
-  install inquirer
+  
 
 ---
 
   ## Usage
-  must be run in the terminal
+  
 
 ---
 
   ## License
-  This application is licensed under the Apache license.
-  ![Apache license](https://opensource.org/licenses/Apache-2.0)
+  This application is licensed under the Boost license.
+  [Boost license](https://opensource.org/licenses/BSL-1.0)
 ---
 
   ## How to Contribute
-  n/a
+  
 
 ---
 
   ## Tests 
-  n/a
+  
 
 ---
 
   ## Questions
-  If you have any questions about the project, open an issue at [tbgolfer86](https://www.github.com/tbgolfer86) or send an email to tbj86@outlook.com.
+  If you have any questions about the project, open an issue at [](https://www.github.com/) or send an email to .
 

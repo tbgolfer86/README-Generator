@@ -26,25 +26,25 @@ function renderLicenseBadge(License) {
 
 function renderLicenseLink(License) {
   if (License == 'GNU AGPLv3') {
-    return `![GNU AGPLv3 license](https://opensource.org/licenses/AGPL-3.0)`;
+    return `[GNU AGPLv3 license](https://opensource.org/licenses/AGPL-3.0)`;
   }
   if (License == 'GNU GPLv3') {
-    return `![GNU GPLv3 license](https://opensource.org/licenses/GPL-3.0)`;
+    return `[GNU GPLv3 license](https://opensource.org/licenses/GPL-3.0)`;
   }
   if (License == 'GNU LGPLv3') {
-    return `![GNU LGPLv3 license](https://opensource.org/licenses/LGPL-3.0)`;
+    return `[GNU LGPLv3 license](https://opensource.org/licenses/LGPL-3.0)`;
   }
   if (License == 'Mozilla') {
-    return `![Mozilla license](https://opensource.org/licenses/MPL-2.0)`;
+    return `[Mozilla license](https://opensource.org/licenses/MPL-2.0)`;
   }
   if (License == 'MIT') {
-    return `![MIT license](https://opensource.org/licenses/MIT)`;
+    return `[MIT license](https://opensource.org/licenses/MIT)`;
   }
   if (License == 'Apache') {
-    return `![Apache license](https://opensource.org/licenses/Apache-2.0)`;
+    return `[Apache license](https://opensource.org/licenses/Apache-2.0)`;
   } 
   if (License == 'Boost') {
-    return `![Boost license](https://opensource.org/licenses/BSL-1.0)`;
+    return `[Boost license](https://opensource.org/licenses/BSL-1.0)`;
   } else {
     return '';
   }
