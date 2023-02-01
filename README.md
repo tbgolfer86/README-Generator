@@ -27,7 +27,7 @@
   This screenshot shows it running in the terminal:
 ![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.38.18%20PM.png)<br>
   This screenshot shows a sample README that was created with the application:
-![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.39.35%20PM.png)
+![alt text](/Develop/assets/images/Screenshot%202023-02-01%20at%2010.55.51%20AM.png)
 
 ---
 
