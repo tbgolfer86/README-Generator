@@ -1,17 +1,51 @@
-# Module9-Challenge - 09 Node.js: Professional README Generator
+# README-Generator
+  
+  ## Description
+  This is a professional README.md generator. It was created using Javascript and Node.js and walks the user through creating a quality README file.
 
-This is a professional README.md generator. It was created using Javascript and Node.js and walks the user through creating a quality README file.
+---
 
-# Installation
+  ## Table of Contents  
 
-N/A
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-# Usage
+---
 
-This is a command-line application. Once initiated, the user is prompted to fill in each section of the README. The input is saved and used to generate the README by filling in a README template.  
+  ## Installation
+  The application uses the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
-The screenshot below shows it running in the terminal.
-![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.38.18%20PM.png)
+---
+
+  ## Usage
+  This is a command-line application that is invoked by using the command: node index.js<br>
+  [Walkthrough video that demonstrates its functionality](https://drive.google.com/file/d/17tqjLC25DPcIXFe7Xk3jU2P5lbplnrnL/view?usp=share_link)<br><br>
+  This screenshot shows it running in the terminal:
+![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.38.18%20PM.png)<br>
+  This screenshot shows a sample README that was created with the application:
 ![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.39.35%20PM.png)
 
-https://drive.google.com/file/d/17tqjLC25DPcIXFe7Xk3jU2P5lbplnrnL/view?usp=share_link
+---
+
+  ## License
+  
+  
+---
+
+  ## Contributing
+  
+
+---
+
+  ## Tests 
+  
+
+---
+
+  ## Questions
+  If you have any questions about the project, open an issue at [tbgolfer86](https://www.github.com/tbgolfer86) or send an email to tbj86@outlook.com.
+
