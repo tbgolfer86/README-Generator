@@ -24,9 +24,9 @@
   ## Usage
   This is a command-line application that is invoked by using the command: node index.js<br>
   [Walkthrough video that demonstrates its functionality](https://drive.google.com/file/d/17tqjLC25DPcIXFe7Xk3jU2P5lbplnrnL/view?usp=share_link)<br><br>
-  This screenshot shows it running in the terminal:
+  This screenshot shows it running in the terminal:<br><br>
 ![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.38.18%20PM.png)<br>
-  This screenshot shows a sample README that was created with the application:
+  This screenshot shows a sample README that was created with the application:<br><br>
 ![alt text](/Develop/assets/images/Screenshot%202023-02-01%20at%2010.55.51%20AM.png)
 
 ---
