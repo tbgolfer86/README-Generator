@@ -1,4 +1,4 @@
-# README-Generator
+# README Generator
   
   ## Description
   This is a professional README.md generator. It was created using Javascript and Node.js and walks the user through creating a quality README file.
