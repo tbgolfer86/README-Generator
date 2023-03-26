@@ -70,7 +70,7 @@ function init() {
       .prompt(questions)
       .then((data) => {
         readmeContent = generateMarkdown(data);
-        writeToFile('README.md', readmeContent);
+        writeToFile('newREADME.md', readmeContent);
   });
 }
 
