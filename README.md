@@ -23,7 +23,7 @@
 
   ## Usage
   This is a command-line application that is invoked by using the command: node index.js<br><br>
-  [Walkthrough video that demonstrates its functionality](https://drive.google.com/file/d/17tqjLC25DPcIXFe7Xk3jU2P5lbplnrnL/view?usp=share_link)<br><br>
+  [Walkthrough video that demonstrates its functionality](https://1drv.ms/v/c/7afd0312d9c87570/EXB1yNkSA_0ggHrNNwAAAAAB9kUrl31MCYztleozd8t2Nw?e=oTRTo9)<br><br>
   This screenshot shows it running in the terminal:<br>
   ![alt text](/Develop/assets/images/Screenshot%202023-01-30%20at%205.38.18%20PM.png)<br><br>
   This screenshot shows a sample README that was created with the application:<br>
